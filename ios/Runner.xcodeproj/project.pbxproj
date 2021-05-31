@@ -8,20 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
-		36454594265B2F1D002E3F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36454593265B2F1D002E3F18 /* Assets.xcassets */; };
-		3645459B265B2F1E002E3F18 /* trichWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3645459A265B2F1D002E3F18 /* trichWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		364545A0265B2F1E002E3F18 /* RunnerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3645459F265B2F1E002E3F18 /* RunnerApp.swift */; };
-		364545A2265B2F1E002E3F18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364545A1265B2F1E002E3F18 /* ContentView.swift */; };
-		364545A4265B2F1E002E3F18 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364545A3265B2F1E002E3F18 /* NotificationController.swift */; };
-		364545A6265B2F1E002E3F18 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364545A5265B2F1E002E3F18 /* NotificationView.swift */; };
-		364545A8265B2F1E002E3F18 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364545A7265B2F1E002E3F18 /* ComplicationController.swift */; };
-		364545AA265B2F1E002E3F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364545A9265B2F1E002E3F18 /* Assets.xcassets */; };
-		364545AD265B2F1E002E3F18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364545AC265B2F1E002E3F18 /* Preview Assets.xcassets */; };
-		364545B9265B2F1E002E3F18 /* trichWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364545B8265B2F1E002E3F18 /* trichWatchTests.swift */; };
-		364545C4265B2F1E002E3F18 /* trichWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364545C3265B2F1E002E3F18 /* trichWatchUITests.swift */; };
-		364545C8265B2F1E002E3F18 /* trichWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 36454591265B2F1D002E3F18 /* trichWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		364545DC265B34C7002E3F18 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 364545DB265B34C7002E3F18 /* GoogleService-Info.plist */; };
-		364545DD265B34C7002E3F18 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 364545DB265B34C7002E3F18 /* GoogleService-Info.plist */; };
+		36422828265B3FEB0044B1D1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36422826265B3FEB0044B1D1 /* Interface.storyboard */; };
+		3642282A265B3FEC0044B1D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36422829265B3FEC0044B1D1 /* Assets.xcassets */; };
+		36422831265B3FEC0044B1D1 /* trichWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 36422830265B3FEC0044B1D1 /* trichWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		36422836265B3FEC0044B1D1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36422835265B3FEC0044B1D1 /* InterfaceController.swift */; };
+		36422838265B3FEC0044B1D1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36422837265B3FEC0044B1D1 /* ExtensionDelegate.swift */; };
+		3642283A265B3FEC0044B1D1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36422839265B3FEC0044B1D1 /* ComplicationController.swift */; };
+		3642283C265B3FED0044B1D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3642283B265B3FED0044B1D1 /* Assets.xcassets */; };
+		36422847265B3FED0044B1D1 /* trichWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36422846265B3FED0044B1D1 /* trichWatchTests.swift */; };
+		36422852265B3FED0044B1D1 /* trichWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36422851265B3FED0044B1D1 /* trichWatchUITests.swift */; };
+		36422856265B3FED0044B1D1 /* trichWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 36422824265B3FEB0044B1D1 /* trichWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
@@ -30,57 +26,57 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3645459C265B2F1E002E3F18 /* PBXContainerItemProxy */ = {
+		36422832265B3FEC0044B1D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 36454599265B2F1D002E3F18;
+			remoteGlobalIDString = 3642282F265B3FEC0044B1D1;
 			remoteInfo = "trichWatch Extension";
 		};
-		364545B5265B2F1E002E3F18 /* PBXContainerItemProxy */ = {
+		36422843265B3FED0044B1D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 36454599265B2F1D002E3F18;
+			remoteGlobalIDString = 3642282F265B3FEC0044B1D1;
 			remoteInfo = "trichWatch Extension";
 		};
-		364545C0265B2F1E002E3F18 /* PBXContainerItemProxy */ = {
+		3642284E265B3FED0044B1D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 36454590265B2F1D002E3F18;
+			remoteGlobalIDString = 36422823265B3FEB0044B1D1;
 			remoteInfo = trichWatch;
 		};
-		364545C6265B2F1E002E3F18 /* PBXContainerItemProxy */ = {
+		36422854265B3FED0044B1D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 36454590265B2F1D002E3F18;
+			remoteGlobalIDString = 36422823265B3FEB0044B1D1;
 			remoteInfo = trichWatch;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		364545CD265B2F1E002E3F18 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				3645459B265B2F1E002E3F18 /* trichWatch Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		364545D2265B2F1E002E3F18 /* Embed Watch Content */ = {
+		36422857265B3FED0044B1D1 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				364545C8265B2F1E002E3F18 /* trichWatch.app in Embed Watch Content */,
+				36422856265B3FED0044B1D1 /* trichWatch.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3642285B265B3FED0044B1D1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				36422831265B3FEC0044B1D1 /* trichWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9705A1C41CF9048500538489 /* Embed Frameworks */ = {
@@ -98,26 +94,22 @@
 /* Begin PBXFileReference section */
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
-		36454591265B2F1D002E3F18 /* trichWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trichWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		36454593265B2F1D002E3F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		36454595265B2F1D002E3F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3645459A265B2F1D002E3F18 /* trichWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "trichWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3645459F265B2F1E002E3F18 /* RunnerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerApp.swift; sourceTree = "<group>"; };
-		364545A1265B2F1E002E3F18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		364545A3265B2F1E002E3F18 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		364545A5265B2F1E002E3F18 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
-		364545A7265B2F1E002E3F18 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		364545A9265B2F1E002E3F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		364545AC265B2F1E002E3F18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		364545AE265B2F1E002E3F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		364545AF265B2F1E002E3F18 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		364545B4265B2F1E002E3F18 /* trichWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trichWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		364545B8265B2F1E002E3F18 /* trichWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trichWatchTests.swift; sourceTree = "<group>"; };
-		364545BA265B2F1E002E3F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		364545BF265B2F1E002E3F18 /* trichWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trichWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		364545C3265B2F1E002E3F18 /* trichWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trichWatchUITests.swift; sourceTree = "<group>"; };
-		364545C5265B2F1E002E3F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		364545DB265B34C7002E3F18 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Runner/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		36422824265B3FEB0044B1D1 /* trichWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trichWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36422827265B3FEB0044B1D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		36422829265B3FEC0044B1D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3642282B265B3FEC0044B1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36422830265B3FEC0044B1D1 /* trichWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "trichWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36422835265B3FEC0044B1D1 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		36422837265B3FEC0044B1D1 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		36422839265B3FEC0044B1D1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3642283B265B3FED0044B1D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3642283D265B3FED0044B1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36422842265B3FED0044B1D1 /* trichWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trichWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36422846265B3FED0044B1D1 /* trichWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trichWatchTests.swift; sourceTree = "<group>"; };
+		36422848265B3FED0044B1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3642284D265B3FED0044B1D1 /* trichWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trichWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36422851265B3FED0044B1D1 /* trichWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trichWatchUITests.swift; sourceTree = "<group>"; };
+		36422853265B3FED0044B1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -132,21 +124,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		36454597265B2F1D002E3F18 /* Frameworks */ = {
+		3642282D265B3FEC0044B1D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		364545B1265B2F1E002E3F18 /* Frameworks */ = {
+		3642283F265B3FED0044B1D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		364545BC265B2F1E002E3F18 /* Frameworks */ = {
+		3642284A265B3FED0044B1D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -163,53 +155,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36454592265B2F1D002E3F18 /* trichWatch */ = {
+		36422825265B3FEB0044B1D1 /* trichWatch */ = {
 			isa = PBXGroup;
 			children = (
-				36454593265B2F1D002E3F18 /* Assets.xcassets */,
-				36454595265B2F1D002E3F18 /* Info.plist */,
+				36422826265B3FEB0044B1D1 /* Interface.storyboard */,
+				36422829265B3FEC0044B1D1 /* Assets.xcassets */,
+				3642282B265B3FEC0044B1D1 /* Info.plist */,
 			);
 			path = trichWatch;
 			sourceTree = "<group>";
 		};
-		3645459E265B2F1E002E3F18 /* trichWatch Extension */ = {
+		36422834265B3FEC0044B1D1 /* trichWatch Extension */ = {
 			isa = PBXGroup;
 			children = (
-				3645459F265B2F1E002E3F18 /* RunnerApp.swift */,
-				364545A1265B2F1E002E3F18 /* ContentView.swift */,
-				364545A3265B2F1E002E3F18 /* NotificationController.swift */,
-				364545A5265B2F1E002E3F18 /* NotificationView.swift */,
-				364545A7265B2F1E002E3F18 /* ComplicationController.swift */,
-				364545A9265B2F1E002E3F18 /* Assets.xcassets */,
-				364545AE265B2F1E002E3F18 /* Info.plist */,
-				364545AF265B2F1E002E3F18 /* PushNotificationPayload.apns */,
-				364545AB265B2F1E002E3F18 /* Preview Content */,
+				36422835265B3FEC0044B1D1 /* InterfaceController.swift */,
+				36422837265B3FEC0044B1D1 /* ExtensionDelegate.swift */,
+				36422839265B3FEC0044B1D1 /* ComplicationController.swift */,
+				3642283B265B3FED0044B1D1 /* Assets.xcassets */,
+				3642283D265B3FED0044B1D1 /* Info.plist */,
 			);
 			path = "trichWatch Extension";
 			sourceTree = "<group>";
 		};
-		364545AB265B2F1E002E3F18 /* Preview Content */ = {
+		36422845265B3FED0044B1D1 /* trichWatchTests */ = {
 			isa = PBXGroup;
 			children = (
-				364545AC265B2F1E002E3F18 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		364545B7265B2F1E002E3F18 /* trichWatchTests */ = {
-			isa = PBXGroup;
-			children = (
-				364545B8265B2F1E002E3F18 /* trichWatchTests.swift */,
-				364545BA265B2F1E002E3F18 /* Info.plist */,
+				36422846265B3FED0044B1D1 /* trichWatchTests.swift */,
+				36422848265B3FED0044B1D1 /* Info.plist */,
 			);
 			path = trichWatchTests;
 			sourceTree = "<group>";
 		};
-		364545C2265B2F1E002E3F18 /* trichWatchUITests */ = {
+		36422850265B3FED0044B1D1 /* trichWatchUITests */ = {
 			isa = PBXGroup;
 			children = (
-				364545C3265B2F1E002E3F18 /* trichWatchUITests.swift */,
-				364545C5265B2F1E002E3F18 /* Info.plist */,
+				36422851265B3FED0044B1D1 /* trichWatchUITests.swift */,
+				36422853265B3FED0044B1D1 /* Info.plist */,
 			);
 			path = trichWatchUITests;
 			sourceTree = "<group>";
@@ -228,13 +209,12 @@
 		97C146E51CF9000F007C117D = {
 			isa = PBXGroup;
 			children = (
-				364545DB265B34C7002E3F18 /* GoogleService-Info.plist */,
 				9740EEB11CF90186004384FC /* Flutter */,
 				97C146F01CF9000F007C117D /* Runner */,
-				36454592265B2F1D002E3F18 /* trichWatch */,
-				3645459E265B2F1E002E3F18 /* trichWatch Extension */,
-				364545B7265B2F1E002E3F18 /* trichWatchTests */,
-				364545C2265B2F1E002E3F18 /* trichWatchUITests */,
+				36422825265B3FEB0044B1D1 /* trichWatch */,
+				36422834265B3FEC0044B1D1 /* trichWatch Extension */,
+				36422845265B3FED0044B1D1 /* trichWatchTests */,
+				36422850265B3FED0044B1D1 /* trichWatchUITests */,
 				97C146EF1CF9000F007C117D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -243,10 +223,10 @@
 			isa = PBXGroup;
 			children = (
 				97C146EE1CF9000F007C117D /* Runner.app */,
-				36454591265B2F1D002E3F18 /* trichWatch.app */,
-				3645459A265B2F1D002E3F18 /* trichWatch Extension.appex */,
-				364545B4265B2F1E002E3F18 /* trichWatchTests.xctest */,
-				364545BF265B2F1E002E3F18 /* trichWatchUITests.xctest */,
+				36422824265B3FEB0044B1D1 /* trichWatch.app */,
+				36422830265B3FEC0044B1D1 /* trichWatch Extension.appex */,
+				36422842265B3FED0044B1D1 /* trichWatchTests.xctest */,
+				3642284D265B3FED0044B1D1 /* trichWatchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,30 +249,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		36454590265B2F1D002E3F18 /* trichWatch */ = {
+		36422823265B3FEB0044B1D1 /* trichWatch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 364545CE265B2F1E002E3F18 /* Build configuration list for PBXNativeTarget "trichWatch" */;
+			buildConfigurationList = 36422866265B3FED0044B1D1 /* Build configuration list for PBXNativeTarget "trichWatch" */;
 			buildPhases = (
-				3645458F265B2F1D002E3F18 /* Resources */,
-				364545CD265B2F1E002E3F18 /* Embed App Extensions */,
+				36422822265B3FEB0044B1D1 /* Resources */,
+				3642285B265B3FED0044B1D1 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3645459D265B2F1E002E3F18 /* PBXTargetDependency */,
+				36422833265B3FEC0044B1D1 /* PBXTargetDependency */,
 			);
 			name = trichWatch;
 			productName = trichWatch;
-			productReference = 36454591265B2F1D002E3F18 /* trichWatch.app */;
+			productReference = 36422824265B3FEB0044B1D1 /* trichWatch.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		36454599265B2F1D002E3F18 /* trichWatch Extension */ = {
+		3642282F265B3FEC0044B1D1 /* trichWatch Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 364545C9265B2F1E002E3F18 /* Build configuration list for PBXNativeTarget "trichWatch Extension" */;
+			buildConfigurationList = 36422865265B3FED0044B1D1 /* Build configuration list for PBXNativeTarget "trichWatch Extension" */;
 			buildPhases = (
-				36454596265B2F1D002E3F18 /* Sources */,
-				36454597265B2F1D002E3F18 /* Frameworks */,
-				36454598265B2F1D002E3F18 /* Resources */,
+				3642282C265B3FEC0044B1D1 /* Sources */,
+				3642282D265B3FEC0044B1D1 /* Frameworks */,
+				3642282E265B3FEC0044B1D1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -300,43 +280,43 @@
 			);
 			name = "trichWatch Extension";
 			productName = "trichWatch Extension";
-			productReference = 3645459A265B2F1D002E3F18 /* trichWatch Extension.appex */;
+			productReference = 36422830265B3FEC0044B1D1 /* trichWatch Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
-		364545B3265B2F1E002E3F18 /* trichWatchTests */ = {
+		36422841265B3FED0044B1D1 /* trichWatchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 364545D3265B2F1E002E3F18 /* Build configuration list for PBXNativeTarget "trichWatchTests" */;
+			buildConfigurationList = 36422867265B3FED0044B1D1 /* Build configuration list for PBXNativeTarget "trichWatchTests" */;
 			buildPhases = (
-				364545B0265B2F1E002E3F18 /* Sources */,
-				364545B1265B2F1E002E3F18 /* Frameworks */,
-				364545B2265B2F1E002E3F18 /* Resources */,
+				3642283E265B3FED0044B1D1 /* Sources */,
+				3642283F265B3FED0044B1D1 /* Frameworks */,
+				36422840265B3FED0044B1D1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				364545B6265B2F1E002E3F18 /* PBXTargetDependency */,
+				36422844265B3FED0044B1D1 /* PBXTargetDependency */,
 			);
 			name = trichWatchTests;
 			productName = trichWatchTests;
-			productReference = 364545B4265B2F1E002E3F18 /* trichWatchTests.xctest */;
+			productReference = 36422842265B3FED0044B1D1 /* trichWatchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		364545BE265B2F1E002E3F18 /* trichWatchUITests */ = {
+		3642284C265B3FED0044B1D1 /* trichWatchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 364545D7265B2F1E002E3F18 /* Build configuration list for PBXNativeTarget "trichWatchUITests" */;
+			buildConfigurationList = 36422868265B3FED0044B1D1 /* Build configuration list for PBXNativeTarget "trichWatchUITests" */;
 			buildPhases = (
-				364545BB265B2F1E002E3F18 /* Sources */,
-				364545BC265B2F1E002E3F18 /* Frameworks */,
-				364545BD265B2F1E002E3F18 /* Resources */,
+				36422849265B3FED0044B1D1 /* Sources */,
+				3642284A265B3FED0044B1D1 /* Frameworks */,
+				3642284B265B3FED0044B1D1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				364545C1265B2F1E002E3F18 /* PBXTargetDependency */,
+				3642284F265B3FED0044B1D1 /* PBXTargetDependency */,
 			);
 			name = trichWatchUITests;
 			productName = trichWatchUITests;
-			productReference = 364545BF265B2F1E002E3F18 /* trichWatchUITests.xctest */;
+			productReference = 3642284D265B3FED0044B1D1 /* trichWatchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		97C146ED1CF9000F007C117D /* Runner */ = {
@@ -349,12 +329,12 @@
 				97C146EC1CF9000F007C117D /* Resources */,
 				9705A1C41CF9048500538489 /* Embed Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
-				364545D2265B2F1E002E3F18 /* Embed Watch Content */,
+				36422857265B3FED0044B1D1 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				364545C7265B2F1E002E3F18 /* PBXTargetDependency */,
+				36422855265B3FED0044B1D1 /* PBXTargetDependency */,
 			);
 			name = Runner;
 			productName = Runner;
@@ -371,19 +351,19 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
-					36454590265B2F1D002E3F18 = {
+					36422823265B3FEB0044B1D1 = {
 						CreatedOnToolsVersion = 12.5;
 					};
-					36454599265B2F1D002E3F18 = {
+					3642282F265B3FEC0044B1D1 = {
 						CreatedOnToolsVersion = 12.5;
 					};
-					364545B3265B2F1E002E3F18 = {
+					36422841265B3FED0044B1D1 = {
 						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 36454599265B2F1D002E3F18;
+						TestTargetID = 3642282F265B3FEC0044B1D1;
 					};
-					364545BE265B2F1E002E3F18 = {
+					3642284C265B3FED0044B1D1 = {
 						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 36454590265B2F1D002E3F18;
+						TestTargetID = 36422823265B3FEB0044B1D1;
 					};
 					97C146ED1CF9000F007C117D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -405,41 +385,40 @@
 			projectRoot = "";
 			targets = (
 				97C146ED1CF9000F007C117D /* Runner */,
-				36454590265B2F1D002E3F18 /* trichWatch */,
-				36454599265B2F1D002E3F18 /* trichWatch Extension */,
-				364545B3265B2F1E002E3F18 /* trichWatchTests */,
-				364545BE265B2F1E002E3F18 /* trichWatchUITests */,
+				36422823265B3FEB0044B1D1 /* trichWatch */,
+				3642282F265B3FEC0044B1D1 /* trichWatch Extension */,
+				36422841265B3FED0044B1D1 /* trichWatchTests */,
+				3642284C265B3FED0044B1D1 /* trichWatchUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3645458F265B2F1D002E3F18 /* Resources */ = {
+		36422822265B3FEB0044B1D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36454594265B2F1D002E3F18 /* Assets.xcassets in Resources */,
-				364545DD265B34C7002E3F18 /* GoogleService-Info.plist in Resources */,
+				3642282A265B3FEC0044B1D1 /* Assets.xcassets in Resources */,
+				36422828265B3FEB0044B1D1 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36454598265B2F1D002E3F18 /* Resources */ = {
+		3642282E265B3FEC0044B1D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364545AD265B2F1E002E3F18 /* Preview Assets.xcassets in Resources */,
-				364545AA265B2F1E002E3F18 /* Assets.xcassets in Resources */,
+				3642283C265B3FED0044B1D1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		364545B2265B2F1E002E3F18 /* Resources */ = {
+		36422840265B3FED0044B1D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		364545BD265B2F1E002E3F18 /* Resources */ = {
+		3642284B265B3FED0044B1D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -452,7 +431,6 @@
 			files = (
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
-				364545DC265B34C7002E3F18 /* GoogleService-Info.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
 			);
@@ -492,31 +470,29 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		36454596265B2F1D002E3F18 /* Sources */ = {
+		3642282C265B3FEC0044B1D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364545A4265B2F1E002E3F18 /* NotificationController.swift in Sources */,
-				364545A2265B2F1E002E3F18 /* ContentView.swift in Sources */,
-				364545A8265B2F1E002E3F18 /* ComplicationController.swift in Sources */,
-				364545A0265B2F1E002E3F18 /* RunnerApp.swift in Sources */,
-				364545A6265B2F1E002E3F18 /* NotificationView.swift in Sources */,
+				36422838265B3FEC0044B1D1 /* ExtensionDelegate.swift in Sources */,
+				36422836265B3FEC0044B1D1 /* InterfaceController.swift in Sources */,
+				3642283A265B3FEC0044B1D1 /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		364545B0265B2F1E002E3F18 /* Sources */ = {
+		3642283E265B3FED0044B1D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364545B9265B2F1E002E3F18 /* trichWatchTests.swift in Sources */,
+				36422847265B3FED0044B1D1 /* trichWatchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		364545BB265B2F1E002E3F18 /* Sources */ = {
+		36422849265B3FED0044B1D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364545C4265B2F1E002E3F18 /* trichWatchUITests.swift in Sources */,
+				36422852265B3FED0044B1D1 /* trichWatchUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,29 +508,37 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3645459D265B2F1E002E3F18 /* PBXTargetDependency */ = {
+		36422833265B3FEC0044B1D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 36454599265B2F1D002E3F18 /* trichWatch Extension */;
-			targetProxy = 3645459C265B2F1E002E3F18 /* PBXContainerItemProxy */;
+			target = 3642282F265B3FEC0044B1D1 /* trichWatch Extension */;
+			targetProxy = 36422832265B3FEC0044B1D1 /* PBXContainerItemProxy */;
 		};
-		364545B6265B2F1E002E3F18 /* PBXTargetDependency */ = {
+		36422844265B3FED0044B1D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 36454599265B2F1D002E3F18 /* trichWatch Extension */;
-			targetProxy = 364545B5265B2F1E002E3F18 /* PBXContainerItemProxy */;
+			target = 3642282F265B3FEC0044B1D1 /* trichWatch Extension */;
+			targetProxy = 36422843265B3FED0044B1D1 /* PBXContainerItemProxy */;
 		};
-		364545C1265B2F1E002E3F18 /* PBXTargetDependency */ = {
+		3642284F265B3FED0044B1D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 36454590265B2F1D002E3F18 /* trichWatch */;
-			targetProxy = 364545C0265B2F1E002E3F18 /* PBXContainerItemProxy */;
+			target = 36422823265B3FEB0044B1D1 /* trichWatch */;
+			targetProxy = 3642284E265B3FED0044B1D1 /* PBXContainerItemProxy */;
 		};
-		364545C7265B2F1E002E3F18 /* PBXTargetDependency */ = {
+		36422855265B3FED0044B1D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 36454590265B2F1D002E3F18 /* trichWatch */;
-			targetProxy = 364545C6265B2F1E002E3F18 /* PBXContainerItemProxy */;
+			target = 36422823265B3FEB0044B1D1 /* trichWatch */;
+			targetProxy = 36422854265B3FED0044B1D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		36422826265B3FEB0044B1D1 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36422827265B3FEB0044B1D1 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		97C146FA1CF9000F007C117D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -631,13 +615,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rgermaine.trich.trich;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.trich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -645,106 +629,7 @@
 			};
 			name = Profile;
 		};
-		364545CA265B2F1E002E3F18 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"trichWatch Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = 6YU7VP8DR8;
-				ENABLE_PREVIEWS = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "trichWatch Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rgermaine.trich.trich.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
-			};
-			name = Debug;
-		};
-		364545CB265B2F1E002E3F18 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"trichWatch Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = 6YU7VP8DR8;
-				ENABLE_PREVIEWS = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "trichWatch Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rgermaine.trich.trich.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
-			};
-			name = Release;
-		};
-		364545CC265B2F1E002E3F18 /* Profile */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"trichWatch Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = 6YU7VP8DR8;
-				ENABLE_PREVIEWS = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "trichWatch Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rgermaine.trich.trich.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
-			};
-			name = Profile;
-		};
-		364545CF265B2F1E002E3F18 /* Debug */ = {
+		36422858265B3FED0044B1D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -762,7 +647,7 @@
 				INFOPLIST_FILE = trichWatch/Info.plist;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rgermaine.trich.trich.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.trich.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -774,7 +659,7 @@
 			};
 			name = Debug;
 		};
-		364545D0265B2F1E002E3F18 /* Release */ = {
+		36422859265B3FED0044B1D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -791,7 +676,7 @@
 				IBSC_MODULE = trichWatch_Extension;
 				INFOPLIST_FILE = trichWatch/Info.plist;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rgermaine.trich.trich.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.trich.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -801,7 +686,7 @@
 			};
 			name = Release;
 		};
-		364545D1265B2F1E002E3F18 /* Profile */ = {
+		3642285A265B3FED0044B1D1 /* Profile */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -818,7 +703,7 @@
 				IBSC_MODULE = trichWatch_Extension;
 				INFOPLIST_FILE = trichWatch/Info.plist;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rgermaine.trich.trich.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.trich.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -828,7 +713,100 @@
 			};
 			name = Profile;
 		};
-		364545D4265B2F1E002E3F18 /* Debug */ = {
+		3642285C265B3FED0044B1D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6YU7VP8DR8;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "trichWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.trich.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		3642285D265B3FED0044B1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6YU7VP8DR8;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "trichWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.trich.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		3642285E265B3FED0044B1D1 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6YU7VP8DR8;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "trichWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.trich.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Profile;
+		};
+		3642285F265B3FED0044B1D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -850,7 +828,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rgermaine.trich.trich.trichWatchTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.trich.trichWatchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -862,7 +840,7 @@
 			};
 			name = Debug;
 		};
-		364545D5265B2F1E002E3F18 /* Release */ = {
+		36422860265B3FED0044B1D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -883,7 +861,7 @@
 					"@loader_path/Frameworks",
 				);
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rgermaine.trich.trich.trichWatchTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.trich.trichWatchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_VERSION = 5.0;
@@ -893,7 +871,7 @@
 			};
 			name = Release;
 		};
-		364545D6265B2F1E002E3F18 /* Profile */ = {
+		36422861265B3FED0044B1D1 /* Profile */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -914,7 +892,7 @@
 					"@loader_path/Frameworks",
 				);
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rgermaine.trich.trich.trichWatchTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.trich.trichWatchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_VERSION = 5.0;
@@ -924,7 +902,7 @@
 			};
 			name = Profile;
 		};
-		364545D8265B2F1E002E3F18 /* Debug */ = {
+		36422862265B3FED0044B1D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -944,7 +922,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rgermaine.trich.trich.trichWatchUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.trich.trichWatchUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -956,7 +934,7 @@
 			};
 			name = Debug;
 		};
-		364545D9265B2F1E002E3F18 /* Release */ = {
+		36422863265B3FED0044B1D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -975,7 +953,7 @@
 					"@loader_path/Frameworks",
 				);
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rgermaine.trich.trich.trichWatchUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.trich.trichWatchUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_VERSION = 5.0;
@@ -985,7 +963,7 @@
 			};
 			name = Release;
 		};
-		364545DA265B2F1E002E3F18 /* Profile */ = {
+		36422864265B3FED0044B1D1 /* Profile */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1004,7 +982,7 @@
 					"@loader_path/Frameworks",
 				);
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rgermaine.trich.trich.trichWatchUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.trich.trichWatchUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_VERSION = 5.0;
@@ -1128,13 +1106,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rgermaine.trich.trich;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.trich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1150,13 +1128,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rgermaine.trich.trich;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.trich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -1167,42 +1145,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		364545C9265B2F1E002E3F18 /* Build configuration list for PBXNativeTarget "trichWatch Extension" */ = {
+		36422865265B3FED0044B1D1 /* Build configuration list for PBXNativeTarget "trichWatch Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				364545CA265B2F1E002E3F18 /* Debug */,
-				364545CB265B2F1E002E3F18 /* Release */,
-				364545CC265B2F1E002E3F18 /* Profile */,
+				3642285C265B3FED0044B1D1 /* Debug */,
+				3642285D265B3FED0044B1D1 /* Release */,
+				3642285E265B3FED0044B1D1 /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		364545CE265B2F1E002E3F18 /* Build configuration list for PBXNativeTarget "trichWatch" */ = {
+		36422866265B3FED0044B1D1 /* Build configuration list for PBXNativeTarget "trichWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				364545CF265B2F1E002E3F18 /* Debug */,
-				364545D0265B2F1E002E3F18 /* Release */,
-				364545D1265B2F1E002E3F18 /* Profile */,
+				36422858265B3FED0044B1D1 /* Debug */,
+				36422859265B3FED0044B1D1 /* Release */,
+				3642285A265B3FED0044B1D1 /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		364545D3265B2F1E002E3F18 /* Build configuration list for PBXNativeTarget "trichWatchTests" */ = {
+		36422867265B3FED0044B1D1 /* Build configuration list for PBXNativeTarget "trichWatchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				364545D4265B2F1E002E3F18 /* Debug */,
-				364545D5265B2F1E002E3F18 /* Release */,
-				364545D6265B2F1E002E3F18 /* Profile */,
+				3642285F265B3FED0044B1D1 /* Debug */,
+				36422860265B3FED0044B1D1 /* Release */,
+				36422861265B3FED0044B1D1 /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		364545D7265B2F1E002E3F18 /* Build configuration list for PBXNativeTarget "trichWatchUITests" */ = {
+		36422868265B3FED0044B1D1 /* Build configuration list for PBXNativeTarget "trichWatchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				364545D8265B2F1E002E3F18 /* Debug */,
-				364545D9265B2F1E002E3F18 /* Release */,
-				364545DA265B2F1E002E3F18 /* Profile */,
+				36422862265B3FED0044B1D1 /* Debug */,
+				36422863265B3FED0044B1D1 /* Release */,
+				36422864265B3FED0044B1D1 /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
